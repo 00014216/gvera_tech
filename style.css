@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #01204c;
+}
+
+h1, h2, h3, .cg-font {
+    font-family: 'Copperplate Gothic', 'Roboto', sans-serif;
+}
+
+.bg-primary {
+    background-color: #01204c;
+}
+
+.text-primary {
+    color: #01204c;
+}
+
+.btn-primary {
+    background-color: #01204c;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #02306e;
+}
+
+/* Add smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Add hover effect for solution cards */
+.solution-card {
+    transition: transform 0.3s ease;
+}
+
+.solution-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Responsive font sizes */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 1.75rem;
+    }
+}
